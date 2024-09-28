@@ -1,4 +1,7 @@
 package com.mycompany.puntodeventablrv;
+import com.mycompany.puntodeventablrv.database.ConexionSQLite;
+import java.sql.Connection;
+
 /**
  *
  * @autor Braiyan Leonardo Ramirez Vargas
@@ -10,6 +13,9 @@ package com.mycompany.puntodeventablrv;
 public class PuntoDeVentaBLRV {
 
     public static void main(String[] args) {
-        System.out.println("Proyecto en proceso de construcción...");
+        Connection conexion = ConexionSQLite.conectar();
+        ConexionSQLite.crearTablaUsuario();
+        
+        ConexionSQLite.cerrarConexion();
     }
 }
