@@ -14,12 +14,10 @@ public class Usuario {
     private String contra;
     private String rol;
     
-    public Usuario(int id,
-                   String nombre,
-                   String correo,
-                   String contra,
-                   String rol
-                   ){
+    public Usuario(
+            int id, String nombre, String correo, 
+            String contra, String rol
+    ){
         this.id = id;
         this.nombre = nombre;
         this.correo = correo;
@@ -66,4 +64,10 @@ public class Usuario {
     public void setRol(String rol) {
         this.rol = rol;
     }
+
+    @Override
+    public String toString() {
+        return "Usuario{" + "id=" + id + ", nombre=" + nombre + ", correo=" + correo + ", contra=" + contra + ", rol= " + "}" + rol;
+    }
 }
+
