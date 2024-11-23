@@ -1,8 +1,10 @@
+
 package com.mycompany.puntodeventablrv;
+
 /**
  *
  * @autor Braiyan Leonardo Ramirez Vargas
- * @archivo Usuario.java
+ * @archivo PuntoDeVenta.java
  * @clase Verificación y validación de software
  * @ciclo 2025-1
  *
@@ -67,7 +69,6 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" + "id=" + id + ", nombre=" + nombre + ", correo=" + correo + ", contra=" + contra + ", rol= " + "}" + rol;
+        return "Usuario{" + "id=" + id + ", nombre=" + nombre + ", correo=" + correo + ", contra=" + contra + ", rol=" + rol + "}" ;
     }
 }
-

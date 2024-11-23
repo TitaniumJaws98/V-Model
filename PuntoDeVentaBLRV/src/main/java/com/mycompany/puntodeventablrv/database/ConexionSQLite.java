@@ -1,4 +1,6 @@
+
 package com.mycompany.puntodeventablrv.database;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -9,7 +11,7 @@ import java.util.logging.Logger;
 /**
  *
  * @autor Braiyan Leonardo Ramirez Vargas
- * @archivo ConexionSQLite.java
+ * @archivo PuntoDeVenta.java
  * @clase Verificación y validación de software
  * @ciclo 2025-1
  *
