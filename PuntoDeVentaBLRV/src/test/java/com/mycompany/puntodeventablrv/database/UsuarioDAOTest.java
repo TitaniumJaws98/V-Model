@@ -1,3 +1,5 @@
+package com.mycompany.puntodeventablrv.database;
+
 
 import com.mycompany.puntodeventablrv.database.ConexionSQLite;
 import com.mycompany.puntodeventablrv.database.UsuarioDAO;
