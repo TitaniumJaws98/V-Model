@@ -17,7 +17,7 @@ public class UsuarioDAOMockTest {
     private UsuarioDAO usuarioDAOMock;
     
     private Usuario crearUsuario(){
-        return new Usuario(9, "Leonardo Ramirez", "blramirez@ucgdl.edu.mx","12345", "estudiante");
+        return new Usuario(9, "Leonardo Ramirez", "blramirez@ucgdl.edu.mx","12345", "admin");
     }
     
     
